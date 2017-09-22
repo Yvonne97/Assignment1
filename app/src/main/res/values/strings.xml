@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_home">Home Page</string>
+
+    <!-- Homepage -->
+    <string name="txthome">Welcome to my Homepage</string>
+
+    <!--Login-->
+    <string name="txtusername">Username</string>
+    <string name="txtpassword">Password</string>
+    <string name="txtloginbtn">Login</string>
+    <string name="txtcaccbtn">Create Account</string>
+    <string name="txtsignup">Dont have an account? Sign Up!</string>
+
+    <!--Sign Up-->
+    <string name="txtfname">First Name</string>
+    <string name="txtlname">Last Name</string>
+    <string name="txtemail">Email</string>
+    <string name="txtphone">Phone Number</string>
+</resources>

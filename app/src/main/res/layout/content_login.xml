@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/bpadding"
+    >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtusername"
+        android:layout_alignParentLeft="true"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtpassword"
+        android:inputType="textPassword"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/txtloginbtn"
+        android:layout_below="@+id/password"
+        android:background="@color/loginbtn"
+        android:layout_centerInParent="true"
+        />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:paddingTop="@dimen/spadding"
+            android:textColor="@color/signtxt"
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtsignup"
+            android:textSize="@dimen/signtxt"
+            android:layout_below="@+id/login"
+            />
+    <Button
+        android:id="@+id/ca"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/txtcaccbtn"
+        android:layout_below="@+id/sign"
+        android:background="@color/signupbtn"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

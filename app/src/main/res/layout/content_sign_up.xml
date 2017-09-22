@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/bpadding"
+    >
+
+    <EditText
+        android:paddingTop="@dimen/spadding"
+        android:id="@+id/firstname"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtfname"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+    android:id="@+id/lastname"
+    android:layout_width="@dimen/width"
+    android:layout_height="wrap_content"
+    android:hint="@string/txtlname"
+    android:inputType="text"
+        android:layout_below="@+id/firstname"
+        android:layout_centerHorizontal="true"
+    />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtemail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/lastname"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtphone"
+        android:inputType="phone"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtpassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/ca"
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="@string/txtcaccbtn"
+        android:layout_below="@+id/password"
+        android:background="@color/signupbtn"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Homepage-->
+
+    <dimen name="hometop">150dp</dimen>
+    <dimen name="textsize">60dp</dimen>
+    
+    <!--Login and Sign Up-->
+
+    <dimen name="signtxt">20dp</dimen>
+    <dimen name="width">190dp</dimen>
+    <dimen name="bpadding">45dp</dimen>
+    <dimen name="spadding">15dp</dimen>
+</resources>
